@@ -3,7 +3,7 @@
  @section('cantenido')
  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
  <h2>Codigo original</h2>
-	<img src="/img/co.png" alt="" style="width: 526px">
+	<img src="/img/co.png" alt="" style="width: 526px;height: 336px;">
 	</pre>
 </div>
 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -97,4 +97,8 @@ private function update($tabla)
 
 	</pre>
 </div>
+
+<pre class="pre-scrollable">
+    
+</pre>
 @stop

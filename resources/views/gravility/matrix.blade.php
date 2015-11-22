@@ -7,6 +7,7 @@
 			{!! Form::open(['route'=>'matrix','method'=>'POST'])!!}
 				<div class="form-group">
 					{!! Form::label('cubo','Cubo')!!}
+					{!!  Form::select('PruebasUnitarias', array('0' => 'Prueba 1', '1' => 'Prueba 2','2' => 'Prueba 3','3' => 'Prueba 4'))!!}
 					@if(isset($datos))
 					{!! Form::textarea('datos',Input::old('post', $datos),['size' => '17x17','class'=>'form-control',"id"=>"datos"])!!}
 					@else
@@ -27,4 +28,8 @@
 			</div>
 		</div>
 	</div>
+
+	<pre class="pre-scrollable">
+	
+</pre>
 @stop

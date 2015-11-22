@@ -1,4 +1,75 @@
-$(document).on("ready",function(){
+var pruebas = [
+`2
+4 5
+UPDATE 2 2 2 4
+QUERY 1 1 1 3 3 3
+UPDATE 1 1 1 23
+QUERY 2 2 2 4 4 4
+QUERY 1 1 1 3 3 3
+2 4
+UPDATE 2 2 2 1
+QUERY 1 1 1 1 1 1
+QUERY 1 1 1 2 2 2
+QUERY 2 2 2 2 2 2`,
+`3
+5 7
+UPDATE 2 5 2 20
+QUERY 1 2 3 3 2 1
+UPDATE 5 1 5 50
+QUERY 4 4 4 5 5 5
+QUERY 1 1 1 5 5 5
+UPDATE 1 1 5 100
+QUERY 1 1 2 4 5 5
+3 5
+UPDATE 3 2 1 10
+QUERY 2 1 1 3 3 3
+UPDATE 1 1 3 60
+QUERY 1 1 1 2 2 2
+QUERY 1 1 1 3 3 3
+7 5
+UPDATE 7 1 1 140
+UPDATE 5 4 4 -180
+QUERY 1 1 1 7 7 7
+UPDATE 1 1 3 60
+QUERY 1 1 1 2 2 2`,
+`2
+2 4
+UPDATE 2 1 2 -40
+QUERY 1 1 1 2 2 2
+UPDATE 1 1 1 23
+QUERY 1 1 1 2 2 2
+9 9
+UPDATE 9 1 2 1
+UPDATE 1 9 2 100
+UPDATE 5 1 1 -30
+UPDATE 2 1 4 750
+QUERY 1 1 1 3 1 9
+QUERY 5 1 1 7 9 2
+UPDATE 9 9 9 -1000
+UPDATE 1 9 2 40
+QUERY 1 1 1 9 9 9`,
+`2
+6 7
+UPDATE 6 6 6 4
+QUERY 1 1 1 3 3 3
+QUERY 3 3 3 6 6 6
+UPDATE 1 1 1 50
+QUERY 2 2 2 4 4 4
+UPDATE 4 4 4 13
+QUERY 1 1 1 3 3 3
+2 4
+UPDATE 2 2 2 1
+QUERY 1 1 1 1 1 1
+QUERY 1 1 1 2 2 2
+QUERY 2 2 2 2 2 2`]
 
+$(document).on("ready",function(){
+pruevas();
 });
 
+function pruevas(){
+	$("select").on("click",function(e) {
+		var id = $(this).val();
+		$("#datos").val(pruebas[id]);
+	})
+}

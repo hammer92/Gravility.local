@@ -2,7 +2,10 @@
  @section('cantenido')
 <h3>1. ¿ En qué consiste el principio de responsabilidad única ? ¿Cual es su propósito?</h3>
 <pre class="pre-scrollable">
-	
+Principios del diseño orientado a objetos; Principios SOLID; [SRP] Principio de responsabilidad única
+"Cada objeto en el sistema deben tener una simple responsabilidad, y todos los servicios de los objetos deben cumplir con esa simple responsabilidad"
+
+El propósito de esto es que las funciones del sistema sean asignadas como tareas más simples y puntuales así en caso de tener una tarea repetida en distintas partes de nuestro aplicativo, podemos re utilizar el mismo fragmento de código sin alterar un bloque demasiado grande.
 </pre>
 
 <h3>2. ¿Que características tiene según su opinión “buen” código o código limpio?</h3>
