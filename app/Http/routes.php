@@ -11,6 +11,7 @@
 |
 */
 Route::post('matrix', array('as' => 'matrix', 'uses' => 'HomeController@matrix'));
+Route::get('coding', array('as' => 'coding', 'uses' => 'CodingController@post_confirm'));
 
 //Route::get('/', 'MenuController@index');
 

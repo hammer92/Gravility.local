@@ -1,15 +1,13 @@
-@extends('gravility.menu')
+<?php
 
- @section('cantenido')
- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
- <h2>Codigo original</h2>
-	<img src="/img/co.png" alt="" style="width: 526px">
-	</pre>
-</div>
-<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-<h2>Codigo Actualizado</h2>
-	<pre class="pre-scrollable">
-&lt;?php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use Input;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
 class CodingController extends Controller
 {
     private $servicio;
@@ -93,8 +91,3 @@ private function update($tabla)
     }
 }
 }
-
-
-	</pre>
-</div>
-@stop
