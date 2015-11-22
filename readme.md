@@ -1,27 +1,16 @@
 ## Laravel PHP Framework
+Presentó pruebas para la empresa Gravility colombia
+Este Proyecto se encuentra desplegado en los servidores de Koding un sistema de máquinas virtuales para desarrolladores en la versión gratuita
+el servidor después de 30 minutos de inactividad se suspende si encuentran el servidor caído comuniquense a que hora ingresara para activar y mantener activo
+email: hammer92@hotmail.es 
+celular: 301 275 9504
+## Configuración Servidor local
+para configurar el proyecto a nivel local ubíquese en la carpeta pública de su servidor y ejecute los siguientes comandos
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+1. git clone https://github.com/hammer92/Gravility.local.git (previa instalacion y configuracion de git)
+2. ingreso a la carpeta y ejecutar el comando (composer install)
+3. asignar permisos a la carpeta en el caso de tener servidor linux 
+4. copio el archivo .env.example y lo renombró como .env editar y configurar mi acceso a la base de datos
+5. php artisan migrate:install (para crear las tablas )
+6. php artisan key:generate(generamos la key de seguridad)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
