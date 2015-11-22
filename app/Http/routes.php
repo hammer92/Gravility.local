@@ -10,10 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::post('matrix', array('as' => 'matrix', 'uses' => 'HomeController@matrix'));
-Route::get('coding', array('as' => 'coding', 'uses' => 'CodingController@post_confirm'));
-
-//Route::get('/', 'MenuController@index');
+Route::post('matrix', array('as' => 'matrix', 'uses' => 'MatrixController@matrix'));
 
 Route::get('/', function () {
     return view('gravility.matrix');

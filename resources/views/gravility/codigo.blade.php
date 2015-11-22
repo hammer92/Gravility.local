@@ -99,6 +99,11 @@ private function update($tabla)
 </div>
 
 <pre class="pre-scrollable">
-    
+    Code Refactoring
+
+En el código de refactorización se muestran mucho errores de codificación como la falta de documentacion tambien se una una mala validación al no comprobar si las consultas a la base de datos con telizadas de una forma óptima, así mismo se ve código obsoleto o no utilizable, también se nota que la función tiene demasiadas tareas a realizar.
+
+En mi recodificación he dividido el ejercicio en tres funciones las cuales me ayudan a agrupar procesos repetitivos de manera eficiente, como es el caso de comprobar si existen los datos a procesar (validar), la manipulación de la base de datos(update) y la función principal (post_confirm) que es la encargada de retornar la respuesta
+
 </pre>
 @stop

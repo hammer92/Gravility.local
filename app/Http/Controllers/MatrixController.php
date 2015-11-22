@@ -9,7 +9,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 
-class HomeController extends Controller
+class MatrixController extends Controller
 {	//variable para asignar el incion de la prueba
 	public $inicio = 1;
 	//variable para asignar el final de la prueba

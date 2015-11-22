@@ -30,6 +30,14 @@
 	</div>
 
 	<pre class="pre-scrollable">
-	
+Para este ejercicio e implementado el framework laravel en su versión 5.1, con el cual intervienen una clases aplicando a
+la arquitectura MVC que es implementada en laravel.
+
+Utilizando el sistema de rutas de laravel, asignando rutas para los métodos post y get  de dicha actividad,  creando una clase controlador llamada MatrixController esta es la encargada de la lógica de negocio en ella encontramos cuatro métodos los cuales son:
+->matrix: función Principal recibe los datos y retorna el resultado.
+->numeroPruebas: recibe un arreglo con los parámetros de la prueba a recorrer.
+->consultas:recibe un arreglo con la cantidad de  consultas a recorrer.
+->queryUpdate: evalúa qué tipo de consulta, manipula la base de datos y retorna la respuesta.
+
 </pre>
 @stop
